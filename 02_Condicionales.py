@@ -1,6 +1,7 @@
 import os
 os.system("clear")
 
+#Nota: ejercicios del canal de yotube @midudev
 ###------------------------------------------------------------SENTENCIAS CONDICIONALES
 print(".....SENTENCIAS CONDICIONALES.....")
 print("\n Sentencia simple condicional")
