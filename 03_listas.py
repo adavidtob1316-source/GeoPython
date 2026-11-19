@@ -144,4 +144,16 @@ print(lista_frutas2.count("manzana")) #Cuenta el número de veces está el eleme
 
 print("manzana" in lista_frutas2) #Comprueba si el elemento existe en la lista
 
+##--------------------------MODIFICACIÓN DE ELEMENTOS EN LISTAS EMPLEANDO BUCLES 
+print("-------------MODIFICACIÓN DE ELEMENTOS EN LISTAS EMPLEANDO BUCLES")
+print("1) Emplear un bucle for para convertir en mayúsculas todos los elementos en una lista de tipo texto")
+animales = ["perro", "gato", "cebra", "loro", "danta", "conejo"]
+animales_mayus = [animal.upper() for animal in animales]
+print(animales_mayus)
+
+#Muestra los números pares de una lista:
+print("2) Emplear un bucle for y un condicional para desplegar solo los elementos pares en una lista de tipo entero")
+pares = [num for num in [1, 2, 3, 4, 5, 6] if num % 2 == 0]
+print(pares)
+
 
