@@ -2,7 +2,7 @@ import pandas as pd
 import openpyxl 
 
 #Crear una variable con la base de datos de Excel:
-BD = pd.read_excel(r"ruta del archivo", sheet_name=1)
+BD = pd.read_excel(r"ruta del archivo", sheet_name=indice de hoja)
 
 print("1) Descripción del dataframe:")
 print(BD.head()) #Visualización de las primeras cinco filas del DataFrame
