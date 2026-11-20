@@ -2,7 +2,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 #Abrir archivo shapefile y guardarlo en una variable:
-shapefile = gpd.read_file(r"C:\Andres\Estudio\GIScience\Python para SIG\DatosEjercicios\World_Countries\World_Countries.shp")
+shapefile = gpd.read_file(r"ruta de archivo")
 
 #Desplegar la variable:
 print(shapefile)
